@@ -1,0 +1,51 @@
+.navbar{
+    color: var(--bs-light);
+}
+img{
+    width: 20%;
+    height: 8%;
+    border-radius: 100px;
+}
+
+.img-fluid{
+    height: 180px;
+    width: 300px;
+    border-radius: 4%;
+    margin-bottom: 18px;
+    transition: .3s;
+}
+:hover .img-fluid{
+    height: 200px;
+    width: 340px;
+    cursor: pointer;
+}
+.img-recursos{
+    border-radius: 3px;
+    float: left;
+    margin: 10px;
+    margin-top: 4px;
+}
+
+.nav-item{
+    color: #ffff;
+}
+
+ .fixed-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 2px;
+    width: 18%;
+    height: 30%px;
+    border-radius: 100px;
+    background-color: transparent;
+    border: transparent solid;
+    padding-right: 5px;
+    
+}
+:hover .whatsapp{
+    background-color: transparent;
+    border: transparent solid;
+}
+footer{
+    margin-top: 7px;
+}
